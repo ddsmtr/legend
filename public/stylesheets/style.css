@@ -1,8 +1,41 @@
-body {
+/*body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+.container{
+  background-color: red;
+}
+.col{
+  background-color: yellow;
+}*/
+.p-0{
+  padding: 0;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  height: 30px;
+  width: 30px;
+}
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      /*min-height:200px;*/
+  }
+  .carousel-caption{
+    vertical-align: middle;
+  }
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+  @media (max-width: 600px) {
+    .container-fluid {
+      display: none;
+    }
+  }
+.cont{
+  text-align:center;
 }
