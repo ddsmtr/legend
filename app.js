@@ -13,7 +13,7 @@ var app = express();
 
 // view engine setup
 app.engine('ejs', require('ejs-locals'));
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'templates'));
 app.set('view engine', 'ejs');
 
 app.use(favicon());
@@ -27,6 +27,13 @@ app.use(app.router);
 http.createServer(app).listen(3000,()=>console.log('Сервер успешно запущен'));
 
 app.get('/', routes.index);
+app.get('/about',routes.about);
+app.get('/filials',routes.filials);
+app.get('/table',routes.table);
+app.get('/coach',routes.coach);
+app.get('/prod',routes.prod);
+app.get('/price',routes.price);
+app.get('/contacts',routes.contacts);
 app.get('/users', users.list);
 
 /// catch 404 and forwarding to error handler
