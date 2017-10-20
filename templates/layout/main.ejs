@@ -20,6 +20,7 @@
     <script src="/vendor/bower_components/jquery/dist/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="/vendor/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/javascripts/script.js"></script>
     <!--Добавление шрифта-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
   </head>
@@ -27,25 +28,27 @@
     <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
     <div class="top_bar">
       <div class="container">
-      <div class="col-md-6">
-      <ul class="social">
-      <li><a target="_blank" href="#"><i class="fa fa-vk text-white"></i></a></li>
-      <li><a target="_blank" href="#"><i class="fa fa-youtube text-white"></i></a></li>
-      <li><a target="_blank" href="#"><i class="fa fa-instagram text-white"></i></a></li>
-      </ul></div>
-
-      <div class="col-md-6">
-      <ul class="rightc">
-      <!-- <li><i class="fa fa-envelope-o"></i> academylegend@gmail.com  </li> -->
-      <li><i class="fa fa-tel"></i> <a href="tel:+79315350875">8 (931) 535-08-75 (СПб)</a><br></li>
-      <li><i class="fa fa-tel"></i> <a href="tel:+79315350875">8 (931) 535-08-75 (Бологое)</a><br></li>
-      </ul>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="social">
+              <li><a target="_blank" href="#"><i class="fa fa-vk text-white"></i></a></li>
+              <li><a target="_blank" href="#"><i class="fa fa-youtube text-white"></i></a></li>
+              <li><a target="_blank" href="#"><i class="fa fa-instagram text-white"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="rightc">
+              <li><i class="fa fa-tel"></i> <a href="tel:+79315350875">8 (931) 535-08-75 (СПб)</a><br></li>
+              <li><i class="fa fa-tel"></i> <a href="tel:+79315350875">8 (931) 535-08-75 (Бологое)</a><br></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+    </div>
+    <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
     <!--!!!!!!!!!!!!!!!!!!!!!!!!!!navbar!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-    <div class="container">
+    <!-- <div class="container"> -->
+    <div class="container-fluid nnav">
     <nav class="navbar  navbar-expand-lg navbar-light">
       <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,7 +58,7 @@
         <img class="navbar-brand-logo" src="../images/brand.png" srcset="../images/brand.png 264w, ../images/brand.png 528w" sizes="250px" alt="Charming Logo">
       </a>
 
-      <div class="navbar-collapse justify-content-md-end collapse" id="navbar-nav" style="">
+      <div class="navbar-collapse justify-content-md-end collapse" id="navbar-nav">
         <ul class="navbar-nav charming-mobile-nav">
           <li class="nav-item active"><a href="/" class="nav-link">Главная</a></li>
             <li class="nav-item"><a href="/about" class="nav-link">О нас</a></li>
@@ -67,12 +70,13 @@
             <li class="nav-item"><a href="/contacts" class="nav-link">Контакты</a></li>
         </ul>
       </div>
-    </nav>
+    </div>
+    <!-- </nav> -->
     <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
 
     <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <%-body -%>
 
-      <%-body -%>
 
     <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     <!-- <section id="features" class="block py-8 block-bb">
@@ -91,6 +95,61 @@
     </div>
   </section> -->
   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  </div>
+
+  <div class="footer">
+      <div class="container">
+      	<div class="row">
+      		<div class="col-md-2 widget">
+          	    <h2>Меню</h2>
+                  <article class="widget_content">
+                      <ul>
+                          <li>О нас</li>
+                          <li>Расписание</li>
+                          <li>Тренер</li>
+                          <li>Продукция</li>
+                          <li>Цены</li>
+                   </ul>
+                   </article>
+      		</div>
+              <div class="col-md-5 widget">
+          	    <h2>Ссылки на нас</h2>
+                  <article class="widget_content">
+                      <ul>
+                          <li><i class="fa fa-vk text-blue">  Вконтакте</i></li>
+                          <li><i class="fa fa-instagram text-blue"> Instagram</i></li>
+                          <li><i class="fa fa-youtube text-blue"> YouTube</i></li>
+                   </ul>
+                   </article>
+      		</div>
+              <div class="col-md-5 widget">
+                  <h2>Наши контакты</h2>
+                  <article class="widget_content">
+                      <p>Санкт-Петербург, ул. Латышских стрелков д. 13 к. 1 <br>
+                         Какой то фитнес клуб, где базируется <br>
+                         Телефон: +62 274 387656<br>
+                         <a href="#">Посмотреть на карте</a>
+                       </p>
+                  </article>
+                  <article class="widget_content">
+                      <p>Тверская обл. г.Бологое , Заводской м-он, д. 16.<br>
+                        Здание : МБУ "ФОК "Кристалл" <br>
+                        Телефон: +62 274 387656 <br>
+                        <a href="#">Посмотреть на карте</a>
+                       </p>
+                  </article>
+      		</div>
+      	</div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <div class="container">
+          <div class="row">
+      		<div class="col-md-12 widget">
+            © 2017 | Created with Boostrap. <a href="#">Tjnhl</a> prod
+          </div>
+          </div>
+      </div>
   </div>
   </body>
 </html>
