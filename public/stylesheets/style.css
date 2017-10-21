@@ -1,3 +1,11 @@
+.leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+ }
+ .rightimg  {
+  float: right; /* Выравнивание по правому краю  */
+  margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
 .container{
   /*background-color: lightblue;*/
   /*margin-right: auto;
@@ -5,6 +13,9 @@
     /*padding-right: 15px;
     padding-left: 15px;*/
     width: 100%;
+}
+section{
+  margin-top:30px;
 }
 .navbar{/*Это все костыли. ИСПРАВИТЬ*/
   margin-left:10%;
@@ -14,9 +25,11 @@
   font-size: 20px;
 }
 .nnav{
-  border-bottom: 1px solid black;
+  border-bottom:2px solid orange;
 }
-
+.btn{
+  width:200px;
+}
 header{
   background-color: black;
   color: white;
@@ -31,9 +44,9 @@ header{
 
 .top_bar { min-height:40px; /*
 background: #30bed6; /* Old browsers */
-background: -moz-linear-gradient(left, #30bed6 0%, #38cac9 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #30bed6 0%,#38cac9 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #30bed6 0%,#38cac9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(left, #FF8000 0%, #FF9000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #FF8000 0%,#FF9000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #FF8000 0%,#FF9000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30bed6', endColorstr='#38cac9',GradientType=1 ); /* IE6-9 */}
 
 .social { list-style-type:none; margin-bottom:0px; float:left; padding:0px; margin-left:0px;}
