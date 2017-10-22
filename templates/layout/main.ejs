@@ -23,6 +23,7 @@
     <script src="/javascripts/script.js"></script>
     <!--Добавление шрифта-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+
   </head>
   <body>
     <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
@@ -31,9 +32,9 @@
         <div class="row">
           <div class="col-md-6">
             <ul class="social">
-              <li><a target="_blank" href="#"><i class="fa fa-vk text-white"></i></a></li>
-              <li><a target="_blank" href="#"><i class="fa fa-youtube text-white"></i></a></li>
-              <li><a target="_blank" href="#"><i class="fa fa-instagram text-white"></i></a></li>
+              <li><a target="_blank" href="#"><i class="fa fa-vk"></i></a></li>
+              <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -47,7 +48,9 @@
     </div>
     <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
     <!--!!!!!!!!!!!!!!!!!!!!!!!!!!navbar!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-    <!-- <div class="container"> -->
+
+
+
     <div class="container-fluid nnav">
     <nav class="navbar  navbar-expand-lg navbar-light">
       <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,17 +63,30 @@
 
       <div class="navbar-collapse justify-content-md-end collapse" id="navbar-nav">
         <ul class="navbar-nav charming-mobile-nav">
-          <li class="nav-item active"><a href="/" class="nav-link">Главная</a></li>
-            <li class="nav-item"><a href="/about" class="nav-link">О нас</a></li>
-            <li class="nav-item"><a href="/filials" class="nav-link">Филиалы</a></li>
-            <li class="nav-item"><a href="/table" class="nav-link">Расписание</a></li>
-            <li class="nav-item"><a href="/coach" class="nav-link">Тренер</a></li>
-            <li class="nav-item"><a href="/prod" class="nav-link">Продукция</a></li>
-            <li class="nav-item"><a href="/price" class="nav-link">Цены</a></li>
-            <li class="nav-item"><a href="/contacts" class="nav-link">Контакты</a></li>
+          <li class="nav-item "><a href="/" class="nav-link font-weight-bold">ГЛАВНАЯ</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link font-weight-bold">О НАС</a></li>
+            <!-- <li class="nav-item"><a href="/filials" class="nav-link font-weight-bold">ФИЛИАЛЫ</a></li> -->
+            <!-- <li class="nav-item"><a href="/table" class="nav-link font-weight-bold">РАСПИСАНИЕ</a></li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                РАСПИСАНИЕ
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/tablespb">Санкт-Петербург</a>
+                <a class="dropdown-item" href="/tablebologoe">Бологое</a>
+              </div>
+            </li>
+            <!---->
+            <li class="nav-item"><a href="/coach" class="nav-link font-weight-bold">ТРЕНЕР</a></li>
+            <li class="nav-item"><a href="/prod" class="nav-link font-weight-bold">ПРОДУКЦИЯ</a></li>
+            <!-- <li class="nav-item"><a href="/price" class="nav-link font-weight-bold">ЦЕНЫ</a></li> -->
+            <li class="nav-item"><a href="/contacts" class="nav-link font-weight-bold">КОНТАКТЫ</a></li>
         </ul>
       </div>
     </div>
+
+
+
     <!-- </nav> -->
     <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
 

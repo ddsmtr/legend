@@ -21,8 +21,11 @@ section{
   margin-left:10%;
   margin-right: 12%;
 }
+/**/
+
+/**/
 .nav-link{
-  font-size: 20px;
+  font-size: 16px;
 }
 .nnav{
   border-bottom:2px solid orange;
@@ -44,18 +47,18 @@ header{
 
 .top_bar { min-height:40px; /*
 background: #30bed6; /* Old browsers */
-background: -moz-linear-gradient(left, #FF8000 0%, #FF9000 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #FF8000 0%,#FF9000 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #FF8000 0%,#FF9000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30bed6', endColorstr='#38cac9',GradientType=1 ); /* IE6-9 */}
+background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #f3f3f3 0%,#f3f3f3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #f3f3f3 0%,#f3f3f3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30bed6', endColorstr=black,GradientType=1 ); /* IE6-9 */}
 
 .social { list-style-type:none; margin-bottom:0px; float:left; padding:0px; margin-left:0px;}
 .social li { float:left;}
-.social li a { padding:0 10px; font-size:13px; line-height:40px; color:#FFF;}
+.social li a { padding:0 10px; font-size:20px; line-height:40px; color:black;}
 
 .rightc { list-style-type:none; margin-bottom:0px; float:right;}
-.rightc li { margin:0px 10px; font-size:13px; float:left; line-height:40px; color:#FFF;}
-.rightc li a {   color:#FFF; }
+.rightc li { margin:0px 10px; font-size:18px; float:left; line-height:40px; color:#FFF;}
+.rightc li a {   color:black; }
 
 .navbar-brand img { margin-top:0px; margin-left:0px;}
 .navbar-brand {padding:0px;}

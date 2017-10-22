@@ -23,3 +23,9 @@ exports.price = function(req,res){
 exports.contacts = function(req,res){
   res.render('contacts', { title: 'Контакты' });
 };
+exports.tablespb = function(req,res){
+  res.render('tablespb', { title: 'Расписание Санкт-Петербург' });
+};
+exports.tablebologoe = function(req,res){
+  res.render('tablebologoe', { title: 'Расписание Бологое' });
+};

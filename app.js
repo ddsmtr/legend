@@ -34,7 +34,9 @@ app.get('/coach',routes.coach);
 app.get('/prod',routes.prod);
 app.get('/price',routes.price);
 app.get('/contacts',routes.contacts);
-app.get('/users', users.list);
+// app.get('/users', users.list);
+app.get('/tablespb', routes.tablespb);
+app.get('/tablebologoe', routes.tablebologoe);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
